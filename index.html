@@ -13,7 +13,35 @@
 
   <!-- Section 1: Main Heading -->
   <h1>Hello My Name is Sujal Tamang </h1>
+  <h2>My Interests</h2>
+<ul>
+  <li>Learning New Languages</li>
+  <li>Exploring Modern Technology</li>
+  <li>Playing Guitar & Listening to Music</li>
+</ul>
+
+<h2>Technologies</h2>
+<ul>
+  <li>HTML5 & CSS3</li>
+  <li>Python Programming</li>
+  <li>Artificial Intelligence & Machine Learning</li>
+</ul>
+
+<h2>My Daily Routine</h2>
+<ul>
+  <li>Attend Classes and Review Lessons</li>
+  <li>Practice English and Programming</li>
+  <li>Exercise and Maintain a Healthy Lifestyle</li>
+</ul>
+
+<h2>My Top 3 Goals</h2>
+<ol>
+  <li>Develop Strong Programming and Problem-Solving Skills</li>
+  <li>Improve English Communication and Academic Performance</li>
+  <li>Build Practical Projects for My Future Career</li>
+</ol>
   <p>I am a noob web developer at Seoul Theological University. I enjoy learning html from scratch and enjoy building websites</p>
+  <p>I have worked in this project as a SEO and also backend editor: <a href="https://www.himalayanhike.com" target="_blank">Himalayan Hike</a></p>
 
 
   
@@ -33,6 +61,11 @@ Ramechhap is known for Thulo Sailung, a hilltop famous for sunrise and sunset vi
   <!--Section 4: Summary -->
   <h4>Summary</h4>
   <p>Created during Week 3 HTML Basics practice.</p>
+  <!-- Top navigation link -->
+<p><a href="#guestbook">Jump to Guestbook Section ↓</a></p>
+
+<!-- Destination section further down the page -->
+<h2 id="guestbook">Guestbook</h2>
 
 </body>
 </html>
@@ -41,3 +74,25 @@ Ramechhap is known for Thulo Sailung, a hilltop famous for sunrise and sunset vi
     
 </body>
 </html>
+  <hr>
+  <h2 id="guestbook">Leave a Message (Guestbook)</h2>
+  <form>
+    <p>
+      <label for="visitor-name">Your Name:</label><br>
+      <input type="text" id="visitor-name" name="visitor-name" placeholder="e.g., sujal tamang" required>
+    </p>
+
+    <p>
+      <label for="visitor-email">Your Email:</label><br>
+      <input type="email" id="visitor-email" name="visitor-email" placeholder="name@example.com" required>
+    </p>
+
+    <p>
+      <label for="visitor-message">Your Message:</label><br>
+      <textarea id="visitor-message" name="visitor-message" rows="4" cols="45" placeholder="Share your greeting, feedback, or thoughts..."></textarea>
+    </p>
+
+    <p>
+      <button type="submit">Submit Message</button>
+    </p>
+  </form>
